@@ -7,7 +7,7 @@ Create Subkeys
 
 .. note::
 
-   Reminder from ``gpg2 --list-secet-keys``:
+   Reminder from ``gpg2 --list-secret-keys``:
 
    .. code::
 
