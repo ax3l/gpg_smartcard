@@ -58,6 +58,6 @@ Further references
 * https://wiki.fsfe.org/TechDocs/CardHowtos/CardWithSubkeysUsingBackups
 * https://github.com/drduh/YubiKey-Guide/find/master#install---linux
 * https://developers.yubico.com/libu2f-host/
-* http://wiki.yobi.be/wiki/GnuPG
+* http://wiki.yobi.be/wiki/GnuPG (includes trouble shooting)
 * https://www.nitrokey.com/documentation/installation
 * GUI: `Gnu Privacy Assistant (GPA) <https://www.nitrokey.com/setup-gnu-privacy-assistant-gpa>`_
