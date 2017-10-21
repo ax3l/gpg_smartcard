@@ -19,6 +19,11 @@ Yubikey
    apt-get install libu2f-host0 yubikey-personalization yubikey-personalization-gui ykneomgr
    service udev restart
 
+.. note::
+
+   There are new GUI and CLI tools currently in beta for Yubikeys.
+   See `Yubikey Manager <https://developers.yubico.com/yubikey-manager-qt/>`_ and its `CLI <https://developers.yubico.com/yubikey-manager/>`_ (``ykman``).
+
 Further initial setup needs explained in [YubiEdit]_:
 
 .. code:: bash

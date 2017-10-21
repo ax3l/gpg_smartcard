@@ -15,7 +15,7 @@ Keys that you own (aka: you have access to the private keys)
 Interpret Output
 ----------------
 
-.. code::
+.. code-block:: none
    :linenos:
 
    sec   rsa4096/0xCCCCCCCCCCCCCCCC 2015-02-01 [SCA] [expires: 2020-01-31]
