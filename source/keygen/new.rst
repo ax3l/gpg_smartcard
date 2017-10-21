@@ -16,6 +16,11 @@ Create a Key
 
    For Yubikeys, only generation 4 and newer support RSA key sizes of 4096!
 
+.. note::
+
+   One can also generate keys directly on the smartcard.
+   Doing so has a list of pro's and con's that we need to inform you about first (to do).
+
 Now, :ref:`list your new keys <gpg2-list>`.
 
 Revocation Key
