@@ -8,14 +8,14 @@ General
 
 .. code:: bash
 
-   apt-get install gnupg2 libu2f-host0
+   apt-get install gnupg2 gnupg-agent pcscd pcsc-tools scdaemon libusb-1.0-0
 
 Yubikey
 -------
 
 .. code:: bash
 
-   apt-get install yubikey-personalization-gui
+   apt-get install libu2f-host0 yubikey-personalization-gui
 
 Test [YubiEdit]_:
 
