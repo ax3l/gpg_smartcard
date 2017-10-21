@@ -26,8 +26,8 @@ Interpret Output
 Capabilities
 """"""""""""
 
-Noted in each key with `[...]`.
-Can be delegated to subkeys.
+Noted in each key with ``[...]``.
+Can be delegated from the primary key to subkeys.
 
 **S**: Sign.
 Signs data, such as e-mails.
