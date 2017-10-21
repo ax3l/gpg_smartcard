@@ -3,6 +3,15 @@ GPG Smartcard Self-Help
 
 Here comes a welcome message
 
+*******
+Authors
+*******
+
+Here is everyone who contributed to this document! :)
+Add yourself!
+
+`ax3l <https://keybase.io/ax3l>`_, ...
+
 .. only:: latex
 
    ************
