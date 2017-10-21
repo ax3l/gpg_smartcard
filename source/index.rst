@@ -1,20 +1,56 @@
-.. GPG Smartcard Self-Help documentation master file, created by
-   sphinx-quickstart on Sat Oct 21 10:53:03 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+GPG Smartcard Self-Help
+-----------------------
 
-Welcome to GPG Smartcard Self-Help's documentation!
-===================================================
+Here comes a welcome message
+
+.. only:: latex
+
+   ************
+   Installation
+   ************
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: INSTALLATION
+   :maxdepth: 1
 
+   install/debian
 
+.. only:: latex
 
-Indices and tables
-==================
+   ***********
+   GPG2 Basics
+   ***********
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :caption: GPG2 BASICS
+   :maxdepth: 1
+
+   gpg2/list
+   gpg2/home
+   gpg2/export
+
+.. only:: latex
+
+   ******
+   Keygen
+   ******
+
+.. toctree::
+   :caption: KEYGEN
+   :maxdepth: 1
+
+   keygen/new
+   keygen/subkeys
+   keygen/renew
+
+.. only:: latex
+
+   *********
+   Smartcard
+   *********
+
+.. toctree::
+   :caption: SMARTCARD
+   :maxdepth: 1
+
+   smartcard/import
