@@ -53,6 +53,10 @@ Further initial setup needs explained in [YubiEdit]_:
    gpg2 --card-status | grep Version
    # Version ..........: 2.1
 
+.. note::
+
+   to do: `yubi touch <https://github.com/a-dma/yubitouch>`_ setup
+
 Nitrokey
 --------
 
