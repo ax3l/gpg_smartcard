@@ -62,4 +62,5 @@ Add yourself!
    :caption: SMARTCARD
    :maxdepth: 1
 
+   smartcard/personalize
    smartcard/import
