@@ -1,1 +1,11 @@
+# tmp files
+*~
+
+# python byte code
+*.pyc
+
+# original backup files
+*.orig
+
+# sphinx output
 build/
