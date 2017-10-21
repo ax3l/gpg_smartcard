@@ -43,7 +43,7 @@ Full key to stub key...
    gpg> quit
    # Save changes? (y/N) y
 
-   gpg2 --list-secet-keys
+   gpg2 --list-secret-keys
    # [...]
    # ssb* [...]
 

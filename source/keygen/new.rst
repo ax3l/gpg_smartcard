@@ -7,7 +7,16 @@ Create a Key
 
 .. code:: bash
 
-   gpg2 --gen-key ...
+   gpg2 --gen-key
+   # here we select
+   #   RSA
+   #   size: 2048 or 4096
+
+.. warning::
+
+   For Yubikeys, only generation 4 and newer support RSA key sizes of 4096!
+
+Now, :ref:`list your new keys <gpg2-list>`.
 
 Revocation Key
 --------------
