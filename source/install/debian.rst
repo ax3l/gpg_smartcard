@@ -28,6 +28,7 @@ Further initial setup needs explained in [YubiEdit]_:
    # Yubikey listed?
 
    # make sure CCID mode is enabled
+   # note: -m86 is also possible, it enables all modes
    ykpersonalize -m6
 
    # check basic information of your yubikey
