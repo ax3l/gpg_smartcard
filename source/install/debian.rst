@@ -56,3 +56,4 @@ Further references
 * https://github.com/drduh/YubiKey-Guide/find/master#install---linux
 * https://developers.yubico.com/libu2f-host/
 * https://www.nitrokey.com/documentation/installation
+* GUI: `Gnu Privacy Assistant (GPA) <https://www.nitrokey.com/setup-gnu-privacy-assistant-gpa>`_
