@@ -10,7 +10,11 @@ Authors
 Here is everyone who contributed to this document! :)
 Add yourself!
 
-`ax3l <https://keybase.io/ax3l>`_, ...
+`ax3l <https://keybase.io/ax3l>`_,
+`informancer <https://github.com/informancer>`_,
+Alexander (Nitrokey)
+the participants of Datenspuren 2017,
+...
 
 .. only:: latex
 
