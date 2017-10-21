@@ -30,6 +30,9 @@ Further initial setup needs explained in [YubiEdit]_:
    # make sure CCID mode is enabled
    ykpersonalize -m6
 
+   # check basic information of your yubikey
+   ykinfo -a
+
    # check smart card readers
    # pcsc_scan
    # Yubikey listed?

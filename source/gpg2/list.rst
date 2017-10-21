@@ -16,12 +16,49 @@ Interpret Output
 ----------------
 
 .. code::
+   :linenos:
 
    sec   rsa4096/0xCCCCCCCCCCCCCCCC 2015-02-01 [SCA] [expires: 2020-01-31]
          FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
    uid                   [ultimate] Jane Roe <jane@roe.de>
    uid                   [ultimate] Dr. Jane Roe <j.roe@esa.int>
    ssb   rsa4096/0xEEEEEEEEEEEEEEEE 2015-02-01 [E] [expires: 2020-01-31]
+
+Line-By-Line
+""""""""""""
+
+* line 1: the *primary key*
+* line 2: ?
+* line 3-4: user IDs of the key (optional, used in Web-of-Trust and for Certification)
+* line 5: the first *subkey*
+
+Column-By-Column
+""""""""""""""""
+
+**1st column:**
+
+* ``sec``: ... (secret key available?)
+* ``ssb``: ... 
+* ``ssb*``: currently selected subkey during edits
+  (next section: selected via ``gpg2 --edit-key CCCCCC`` - ``key N``)
+
+* ``uid``: this line is a user ID
+
+**2nd column:**
+
+* ``algorithm/0xKeyID``
+
+**3rd column:**
+
+* date of generation
+
+**4th column:**
+
+* ``[...]```: capabilities (see below)
+
+**5th column:**
+
+* date of expiration
 
 Capabilities
 """"""""""""
