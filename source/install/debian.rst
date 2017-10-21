@@ -8,7 +8,8 @@ General
 
 .. code:: bash
 
-   apt-get install gnupg2 gnupg-agent pcscd pcsc-tools scdaemon libusb-1.0-0
+   apt-get install gnupg2 gnupg-agent pcscd pcsc-tools scdaemon libusb-1.0-0 libccid
+   service udev restart
 
 Yubikey
 -------
@@ -16,6 +17,7 @@ Yubikey
 .. code:: bash
 
    apt-get install libu2f-host0 yubikey-personalization-gui
+   service udev restart
 
 Further initial setup needs explained in [YubiEdit]_:
 
@@ -38,13 +40,19 @@ Further initial setup needs explained in [YubiEdit]_:
    # OK
    # -> means: v4.3.4
 
-Further references
-""""""""""""""""""
-
-* https://github.com/drduh/YubiKey-Guide/find/master#install---linux
-* https://developers.yubico.com/libu2f-host/
+   # OpenPGP Version 1 or 2 card?
+   gpg2 --card-status | grep Version
+   # Version ..........: 2.1
 
 Nitrokey
 --------
 
 ...
+
+Further references
+------------------
+
+* https://wiki.fsfe.org/TechDocs/CardHowtos/CardWithSubkeysUsingBackups
+* https://github.com/drduh/YubiKey-Guide/find/master#install---linux
+* https://developers.yubico.com/libu2f-host/
+* https://www.nitrokey.com/documentation/installation
