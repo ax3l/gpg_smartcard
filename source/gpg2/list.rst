@@ -38,7 +38,7 @@ Column-By-Column
 **1st column:**
 
 * ``sec``: ... (secret key available?)
-* ``ssb``: ... 
+* ``ssb``: ... (secret key of a subkey available?)
 * ``ssb*``: currently selected subkey during edits
   (next section: selected via ``gpg2 --edit-key CCCCCC`` - ``key N``)
 
