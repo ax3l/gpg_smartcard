@@ -30,6 +30,12 @@ Test [YubiEdit]_:
    # gpg-connect-agent --hex "scd apdu 00 f1 00 00" /bye
    # ...
 
+Further references
+""""""""""""""""""
+
+* https://github.com/drduh/YubiKey-Guide/find/master#install---linux
+* https://developers.yubico.com/libu2f-host/
+
 Nitrokey
 --------
 
