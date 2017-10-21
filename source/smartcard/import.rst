@@ -12,7 +12,7 @@ Full key to stub key...
 
 .. note::
 
-   Reminder from ``gpg2 --list-secet-keys`` after we created a :ref:`sub-keys <keygen-subkeys>`.
+   Reminder from ``gpg2 --list-secret-keys`` after we created a :ref:`sub-keys <keygen-subkeys>`.
 
    .. code::
 
