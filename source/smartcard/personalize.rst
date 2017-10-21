@@ -22,9 +22,8 @@ This allows you to, e.g. set passwords or additional meta information.
    # (laptop, Android Cell Phone with OpenKeyChain) since the pub
    # key is not installed on the device
    gpg/card> url
-   URL to retrieve public key: http://.../CCC.txt
-   # note: You can set a normal https:// url to your private website
-   #       here but it will not work with older versions of GPG
+   URL to retrieve public key: https://keybase.io/user/key.asc
+   # note: some older versions of GPG only support http:// :(
 
    # the options below are purely administrational if you have several
    # smartcards or want to use them in specific workflows.

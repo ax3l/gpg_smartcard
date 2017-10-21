@@ -57,6 +57,7 @@ Further references
 ------------------
 
 * https://wiki.fsfe.org/TechDocs/CardHowtos/CardWithSubkeysUsingBackups
+* https://malcolmsparks.com/posts/yubikey-gpg.html
 * https://github.com/drduh/YubiKey-Guide/find/master#install---linux
 * https://developers.yubico.com/libu2f-host/
 * http://wiki.yobi.be/wiki/GnuPG (includes trouble shooting)
