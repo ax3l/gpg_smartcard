@@ -6,6 +6,8 @@ GPG Smartcard Self-Help
 Hey there!
 Feel free to contribute via pull requests! :)
 
+Ihr könnt auch einfach in Deutsch schreiben, am Ende machen wir das Dokument einfach zweisprachig.
+
 How to Build
 ------------
 
