@@ -1,0 +1,6 @@
+requirements_file: requirements.txt
+
+formats:
+    - htmlzip
+    - pdf
+    - epub
