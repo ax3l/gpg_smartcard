@@ -64,3 +64,17 @@ Add yourself!
 
    smartcard/personalize
    smartcard/import
+
+.. only:: latex
+
+   **********
+   Background
+   **********
+
+.. toctree::
+   :caption: BACKGROUND
+   :maxdepth: 1
+
+   background/algorithms
+   background/devicegeneration
+   background/renew
