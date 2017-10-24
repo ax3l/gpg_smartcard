@@ -28,7 +28,7 @@ Line-By-Line
 """"""""""""
 
 * line 1: the *primary key*
-* line 2: ?
+* line 2: fingerprint
 * line 3-4: user IDs of the key (optional, used in Web-of-Trust and for Certification)
 * line 5: the first *subkey*
 
@@ -39,8 +39,13 @@ Column-By-Column
 
 * ``sec``: ... (secret key available?)
 * ``ssb``: ... (secret key of a subkey available?)
+
 * ``ssb*``: currently selected subkey during edits
   (next section: selected via ``gpg2 --edit-key CCCCCC`` - ``key N``)
+* ``ssb>``: only stub of a subkey is available
+  (next section: after secret part has been moved to a smartcard)
+* ``sec#``: the secret part is not available
+  (removed from local key store)
 
 * ``uid``: this line is a user ID
 
