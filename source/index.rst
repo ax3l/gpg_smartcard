@@ -68,6 +68,7 @@ the participants of Datenspuren 2017,
 
    smartcard/personalize
    smartcard/import
+   smartcard/change
 
 .. only:: latex
 
